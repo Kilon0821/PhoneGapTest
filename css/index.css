@@ -59,6 +59,42 @@ body {
                                    /* offset horizontal: half of text area width */
 }
 
+.header {
+	text-align: center;
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	position: absolute;
+	background: -webkit-linear-gradient(rgba(58,144,195,1)50%, rgba(255,255,255,0));
+    background: -o-linear-gradient(rgba(58,144,195,1)50%, rgba(255,255,255,0));
+    background: -moz-linear-gradient(rgba(58,144,195,1)50%, rgba(255,255,255,0));
+    background: linear-gradient(rgba(58,144,195,1)50%, rgba(255,255,255,0)));
+}
+
+.banner {
+	top: 210px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+}
+
+.container-3col{
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	border: 1px solid Black;
+}
+
+.title{
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+}
+
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {

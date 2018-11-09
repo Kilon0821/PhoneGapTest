@@ -83,9 +83,9 @@ body {
 .container-3col{
 	display: inline-block;
 	position: relative;
-	width: 150px;
-	height: 150px;
-	margin: 25px;
+	width: 75px;
+	height: 75px;
+	margin: 20px;
 	border: 1px solid Black;
 }
 

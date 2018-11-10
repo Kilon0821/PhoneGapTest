@@ -84,16 +84,23 @@ body {
 	display: inline-block;
 	position: relative;
 	width: 80px;
-	height: 80px;
+	height: 110px;
 	margin: 10px;
+	border: 1px solid Black;
+}
+
+.logo{
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 	border: 1px solid Black;
 }
 
 .title{
+	font-size: 20px;
 	display: inline-block;
-	position: absolute;
-	bottom: -20px;
 }
 
 /* Landscape layout (with min-width) */
@@ -109,16 +116,23 @@ body {
 		display: inline-block;
 		position: relative;
 		width: 180px;
-		height: 180px;
+		height: 220px;
 		margin: 30px;
+		border: 1px solid Black;
+	}
+	
+	.logo{
+		display: inline-block;
+		position: relative;
+		width: 180px;
+		height: 180px;
 		border-radius: 50%;
 		border: 1px solid Black;
 	}
 
 	.title{
+		font-size: 40px;
 		display: inline-block;
-		position: absolute;
-		bottom: -40px;
 	}
 }
 

@@ -62,10 +62,9 @@ body {
 	height: 150px;
 	display: inline-block;
 	position: fixed;
-	background: -webkit-linear-gradient(rgba(58,144,195)30%, rgba(228,228,228));
-    background: -o-linear-gradient(rgba(58,144,195)30%, rgba(228,228,228));
-    background: -moz-linear-gradient(rgba(58,144,195)30%, rgba(228,228,228));
-    background: linear-gradient(rgba(58,144,195)30%, rgba(228,228,228)));
+	background-image: url(../img/BannerIMG.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .banner {

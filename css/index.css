@@ -59,7 +59,7 @@ body {
 .header {
 	text-align: center;
 	width: 100%;
-	height: 150px;
+	height: 25vh;
 	display: inline-block;
 	position: fixed;
 	background-image: url(../img/BannerIMG.jpg);
@@ -79,7 +79,7 @@ body {
 }
 
 .banner {
-	top: 170px;
+	top: 26vh;
 	position: absolute;
 	text-align: center;
 	width: 100%;

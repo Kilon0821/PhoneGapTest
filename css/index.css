@@ -121,15 +121,15 @@ a:hover,a:visited,a:link,a:active{
 	display: inline-block;
 	position: relative;
 	width: 25vw;
-	height: 30vw;
+	height: 27vw;
 	margin: 3px;
 }
 
 .logo{
 	display: inline-block;
 	position: relative;
-	width: 25vw;
-	height: 25vw;
+	width: 22vw;
+	height: 22vw;
 	border-radius: 50%;
 	border: 1px solid Black;
 }

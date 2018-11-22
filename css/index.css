@@ -44,6 +44,42 @@ body {
 	font-size: 3vh;
 }
 
+#loader {
+	position: absolute;
+	z-index: 1;
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/logo.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: -100px 0 0 -100px;
+	left: 50%;
+	top: 50%;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+	from { bottom:-100px; opacity:0 } 
+	to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+	from{ bottom:-100px; opacity:0 } 
+	to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+	display: none;
+}
+
 form{
 	display: inline-block;
 	width: 100vw;

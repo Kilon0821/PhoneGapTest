@@ -39,15 +39,25 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Website</title>
+    <title>MemberSearch</title>
 </head>
 
 <body>
 	<div class="header2">
-		<a onclick="history.back()" style="float: left;"><img src="img/baseline_keyboard_backspace_white_48dp.png" style="height: 6vh;width: 6vh;"/></a>
+		<a onclick="history.back()" style="float: left;height: 10vh;width: 10vh;"><img src="img/baseline_keyboard_backspace_white_48dp.png" style="padding: 0px; height: 60%;width: 60%;"/></a>
 	</div>
     <div style="margin-top: 10vh;width:100%;height: 90vh;position:absolute;">
-		<iframe src="http://www.extension.fcu.edu.tw/wSite/mp?mp=241101&mobile=false" style="width: 100%;height: 100%;"></iframe>
+		<form method="get">
+			輸入學號:
+			<input type="text" name="StudentID" id="StudentID">
+			<input type="submit" value="查詢" id="submit">
+		</form>
+		<table>
+			<tr>
+				<th>學號</th>
+				<th>名字</th>
+			</tr>
+		</table>
 	</div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>

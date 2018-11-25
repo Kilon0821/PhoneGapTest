@@ -43,6 +43,7 @@
 </head>
 
 <body onload="myFunction()" style="margin:0;">
+	<div id="myDiv"></div>
 	<script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
@@ -52,12 +53,13 @@
 	var myVar;
 
 	function myFunction() {
-		//myVar = setTimeout(showPage, 1000);
-		window.open("Home.html");
+		myVar = setTimeout(showPage, 1000);
+		window.location.href = "Home.html";
 	}
 
 	function showPage() {
 	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("myDiv").style.display = "block";
 	}
 	</script>
 </body>

@@ -24,7 +24,11 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-	background-color: #B13C3E;
+	background: linear-gradient(0deg, #cce6ff, white);
+	background-color: linear-gradient(0deg, #cce6ff, white);
+	background-image: -moz-linear-gradient(0deg, #cce6ff, white);
+	background-image: -webkit-linear-gradient(0deg, #cce6ff, white);
+	background-image: linear-gradient(0deg, #cce6ff, white);
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;

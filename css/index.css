@@ -25,10 +25,8 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
 	background-image: linear-gradient(white ,#cce6ff);
-	background: linear-gradient (top to bottom, #D8D8D8 0%, #FFF 100%);
-	background: -moz-linear-gradient (top to bottom, #D8D8D8 90%, #FFF 100%);
-	background: -webkit-linear-gradient (top to bottom, #D8D8D8 0%, #FFF 100%);
-	background: -o-linear-gradient (top to bottom, #D8D8D8 0%, #FFF 100%);
+	background-image: linear-gradient(bottom, #cce6ff 0%, white 100%), linear-gradient(bottom, #cce6ff 0%, white 100%);
+	background-image: linear-gradient(to top, #cce6ff 0%, white 100%), linear-gradient(to top, #cce6ff 0%, white 100%);
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;

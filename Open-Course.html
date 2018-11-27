@@ -37,64 +37,19 @@
     * Create your own at http://cspisawesome.com
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Home</title>
+    <title>MemberSearch</title>
 </head>
 
-<body style="margin:0;">
-	<div class="animate-bottom">
-		<div class="header" id="MainDiv"></div>
-		<div class="banner">
-			<a href="MemberSearch.html" class="container-3col">
-				<div class="logo" style="background-image: url(img/Member.png);"></div>
-				<div class="title">會員查詢</div>
-			</a>
-			<a href="Open-Course.html" class="container-3col">
-				<div class="logo" style="background-image: url(img/Open-Course.png);"></div>
-				<div class="title">開課訊息</div>
-			</a>
-			<a href="Offer.html" class="container-3col">
-				<div class="logo" style="background-image: url(img/Offer.png);"></div>
-				<div class="title">活動促銷</div>
-			</a>
-			<p></p>
-			<a href="News.html" class="container-3col">
-				<div class="logo" style="background-image: url(img/News.png);"></div>
-				<div class="title">最新消息</div>
-			</a>
-			<a href="Course-Outline.html" class="container-3col">
-				<div class="logo" style="background-image: url(img/Course-Outline.png);"></div>
-				<div class="title">課表綱要</div>
-			</a>
-			<a href="Message.html" class="container-3col">
-				<div class="logo" style="background-image: url(img/Message.png);"></div>
-				<div class="title">訊息公告</div>
-			</a>
-			<p></p>
-			<a href="Website.html" class="container-3col">
-				<div class="logo" style="background-image: url(img/logo.png)"></div>
-				<div class="title">學校首頁</div>
-			</a>
-		</div>
-    </div>
-	<script type="text/javascript" src="cordova.js"></script>
+<body>
+	<div class="header2">
+		<a onclick="history.back()" style="float: left;height: 10vh;width: 10vh;"><img src="img/baseline_keyboard_backspace_white_48dp.png" style="padding: 0px; height: 60%;width: 60%;"/></a>
+	</div>
+    <div style="margin-top: 10vh;width:100%;height: 90vh;position:absolute;">
+		Open-Course
+	</div>
+    <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
-	<script>
-	var myVar;
-
-	function myFunction() {
-		myVar = setTimeout(showPage, 1000);
-	}
-
-	function showPage() {
-	  document.getElementById("loader").style.display = "none";
-	  document.getElementById("myDiv").style.display = "block";
-	}
-	</script>
 </body>
 
 </html>
